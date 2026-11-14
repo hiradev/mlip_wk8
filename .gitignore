@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Project artefacts
+mlruns/
+mlartifacts/
+mlflow.db
+models/*.pkl
+data/*.csv
+.env
